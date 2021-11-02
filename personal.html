@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mohammad Towfiqul Islam</title>
+</head>
+<body>
+    <!--Using table to format the layout so that the picture and my info is in a single line.-->
+    <table>
+        <thead>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td><img src="Photo.jpg" alt="Towfiq's picture"></td>
+                <td><h1> <strong>Mohammad Towfiqul Islam</strong></h1>
+                    <p>Student at <em> <a href="http://www.northsouth.edu/">North South University</a></em>.</p>
+                    <p>Im a student and learning Web Development. I love to play cricket.</p></td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+    <hr noshade>
+
+    <h3>Educational background</h3>
+    <ul>
+        <li>Completed high school at B.I.S.E.S.</li>
+        <li>Apparently studying Computer Science at North South University.</li>
+    </ul>
+    <hr noshade>
+
+    <p>My hobbies are <ol>
+        <li>playing video games</li>
+        <li>watching and playing sports especially cricket and football.</li>
+        <li>watching tv series and listening to music</li>
+    </ol></p>
+    <hr noshade>
+    
+    <!--<h3>Skills</h3>
+    <table cellspacing="10">
+        <thead>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>C programming</td>
+                <td>⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td>Java</td>
+                <td>⭐⭐⭐</td>
+            </tr>
+            <tr>
+                <td>Web development</td>
+                <td>⭐</td>
+            </tr>
+            <tr>
+                <td>C++ programming</td>
+                <td>⭐⭐</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>-->
+
+    <h3>Skills</h3>
+    <table cellspacing="10"> <!--Cellspacing used so that the lines are more spaced out.-->
+        <thead>
+
+        </thead>
+        <tbody>
+            <tr> <!--There's only one row, and 2 columns (1st table) and within each column are 2 more rows and columns (2nd table)-->
+                <td>
+                    <table>
+                        <tr>
+                            <td>C programming</td>
+                            <td>⭐⭐⭐</td>
+                        </tr>
+                        <tr>
+                            <td>Java</td>
+                            <td>⭐⭐⭐</td>
+                        </tr>
+                    </table>
+                </td>
+                <td>
+                    <table>
+                        <tr>
+                            <td>Web Development</td>
+                            <td>⭐</td>
+                        </tr>
+                        <tr>
+                            <td>C++</td>
+                            <td>⭐⭐⭐</td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+    <hr>
+    <h3>My contact info</h3>
+    <p>Adress: Riyadh, Saudi Arabia</p>
+    <p>Phone No.: 0508054315</p>
+    <p>mthawfiq@gmail.com</p>
+    <form action="mailto:mohammedthawfiq00@gmail.com" method="post" enctype="text/plain">
+        <label for="">Your Name:</label>
+        <input type="text" name="Your Name"> <br>
+        <label for="">Your Email:</label>
+        <input type="email" name="Your email"> <br>
+        <label for="">Your Message</label ><br>
+        <textarea name="Your Message" id="" cols="30" rows="10"></textarea> <br>
+        <label for="">Have you agreed to the terms and conditions?</label>
+        <input type="checkbox"><br>
+        <label for="">What's your favourite color?</label>
+        <input type="color"><br>
+        <label for="">Is there a file you want to upload?</label>
+        <input type="file"><br>
+        <input type="submit">
+    </form>
+</body>
+</html>
